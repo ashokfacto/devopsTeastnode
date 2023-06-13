@@ -1,19 +1,19 @@
 {
-  "name": "n8n-nodes-<...>",
+  "name": "n8n-nodes-mdmtest",
   "version": "0.1.0",
-  "description": "",
+  "description": "MDM TEST Node",
   "keywords": [
-    "n8n-community-node-package"
+    "n8n-mdm-node-package"
   ],
   "license": "MIT",
   "homepage": "",
   "author": {
-    "name": "",
-    "email": ""
+    "name": "Ashok",
+    "email": "ashokfactoreal@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/<...>/n8n-nodes-<...>.git"
+    "url": "https://github.com/ashokfacto/devopsTeastnode.git"
   },
   "main": "index.js",
   "scripts": {
@@ -34,7 +34,7 @@
       "dist/credentials/HttpBinApi.credentials.js"
     ],
     "nodes": [
-      "dist/nodes/ExampleNode/ExampleNode.node.js",
+      "dist/nodes/mdmtestNode/mdmtestNode.node.js",
       "dist/nodes/HttpBin/HttpBin.node.js"
     ]
   },
